@@ -1,1 +1,55 @@
-/*  your css code here. If applicable */
+.eg1{
+    grid-area: a;
+    background-color: green;
+}
+.eg2{
+    grid-area: b;
+    background-color: green;
+}
+.eg3{
+    grid-area: c;
+    background-color: green;
+}
+.eg4{
+    grid-area: d;
+    background-color: green;
+}
+.eg5{
+    grid-area: e;
+    background-color: green;
+}
+.eg6{
+    grid-area: f;
+    background-color: green;
+}
+.eg7{
+    grid-area: g;
+    background-color: green;
+}
+.eg8{
+    grid-area: h;
+    background-color: green;
+}
+.eg9{
+    grid-area: i;
+    background-color: green;
+}
+.eg10{
+    grid-area: j;
+    background-color: green;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(5,100px);
+    grid-template-columns: repeat(4,100px);
+    width: 1000px;
+    gap: 10px;
+    grid-template-areas: 
+    "a a a a"
+    "b c d d"
+    "b e e f"
+    "b g h i"
+    "b j j j"
+    ;
+    /* grid-template-areas: none; */
+}
